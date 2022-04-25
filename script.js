@@ -1,10 +1,11 @@
 
 
+
 const findFilm = async () => {
     // document.getElementById("filmTitle").innerHTML = `<div class="c-loader"></div>`;
     const film = document.getElementById("boxText").value;
    
-   if (film.length > 0) {
+    if (film.length > 0) {
         document.getElementById("filmTitle").innerHTML = `<div class="c-loader"></div>`;
         synopsis.innerHTML = '';
         const url = `https://imdb-api.com/pt-bt/API/Search/k_8kw84xsp/${film}`;
