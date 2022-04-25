@@ -30,8 +30,8 @@ const findFilm = async () => {
             insertFilm(filmImage, filmTitle, filmYear, filmRating, filmDescription, filmGenre, filmWriters, filmRuntime, filmStars);
         })();
     } else {
-        alert(Filme ou série não encontrada)";
-        const filmTitle = FILME NÃO ENCONTRADO
+        alert('Filme ou série não encontrada');
+        const filmTitle = 'FILME NÃO ENCONTRADO';
     }
 }
 
